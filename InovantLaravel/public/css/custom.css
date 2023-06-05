@@ -1,0 +1,81 @@
+
+body{
+    background-color: aliceblue;
+}
+
+
+.one-line-active{
+    margin-top: 7px;
+}
+
+#gray_section_title-error,
+#gray_section_item-error,
+#gray_section_two_title-error,
+#gray_section_two_item-error,
+#blue_section_title-error,
+#blue_section_item-error,
+#blue_section_two_title-error,
+#blue_section_two_item-error,
+#detail_slider_one_title_title-error,
+#detail_slider_one_title_edit_title-error,
+#basic_slider_title_title-error,
+#basic_slider_title_edit_title-error,
+#specs_one_title_title-error,
+#specs_one_title_edit_title-error,
+#specs_two_title_title-error,
+#specs_two_title_edit_title-error,
+#specs_three_title_title-error,
+#specs_three_title_edit_title-error,
+#detail_slider_two_title_title-error,
+#detail_slider_two_title_edit_title-error{
+    top: 40px;
+    left: 18.5%;
+}
+
+.navbar-light.logout-dropdown{
+    position: relative;
+}
+
+.navbar-light.logout-dropdown .nav-item{
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+
+.login-wrp{
+    align-items: center;
+    height: 100vh;
+}
+
+.login-page .invalid-feedback{
+    position: relative;
+}
+
+.content-header{
+    padding-left: 0;
+}
+
+/* Select2 starts */
+.form-control.is-invalid ~ .select2-container--default .select2-selection--single{
+    border: 1px solid #ff1100;
+}
+/* Select2 End */
+
+.login-card{
+    margin-top: 40%;
+    transform: translateY(-50%);
+}
+.card-header{
+    /* display: flex; */
+    justify-content: center;
+}
+
+.btn{
+    /* background-color: #023b16; */
+}
+
+.login-btn-grp{
+    display: flex;
+    margin-left: 33%;
+}
+
